@@ -1,0 +1,29 @@
+.main-card{
+    /* width: auto; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    /* height: 300px; */
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 600px) {
+    .main-card{
+        margin: auto;
+        width: 100%;
+    }
+    .card-container{
+        display: block;
+        margin: auto;
+    }
+}
+
+.gee{
+    margin: auto;
+    padding-left: 0px;
+}
